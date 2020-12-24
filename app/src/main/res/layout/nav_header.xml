@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="navigationheader"
+            type="com.odengmin.handtracer.activity.MainActivity" />
+
+        <import type="android.view.View" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <ImageView
+            android:id="@+id/nav_profile_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="test1"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/nav_user_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:textStyle="bold"
+            android:text="test2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/nav_user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="test3" />
+
+    </LinearLayout>
+</layout>

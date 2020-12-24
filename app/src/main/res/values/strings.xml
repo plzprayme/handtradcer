@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">손자취</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="login">Login</string>
+    <string name="focusedbuilding">focusedBuilding</string>
+    <string name="getmylocation">getMyLocation</string>
+
+    <!-- Notification Channels    -->
+    <string name="foreground_channel">Foreground Channel</string>
+    <string name="foreground_desc">손자취</string>
+    <string name="push_channel">Push Channel</string>
+    <string name="push_desc">손을 씻읍시다!</string>
+
+    <string name="push_title1">손을 씻어주세요!</string>
+    <string name="push_content1">"손 씻기는 가장 쉽고 효율적인 코로나 예방법입니다!</string>
+
+    <string name="push_title2">건물에 들어오셨나요?</string>
+    <string name="push_content2">여기까지 오는 동안 오염된 손을 씻어보세요!</string>
+
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="location_updated">Location Updates</string>
+    <string name="launch_activity">Launch activity</string>
+    <string name="remove_location_updates">Remove location updates</string>
+
+    <!-- Native App Key 4a6b1d93375c2130dfb6abae18cefb97 -->
+    <!-- Key Hash 7lSr+NEVIw7m5Nbi7ey2LesfR70= -->
+    <string name="kakao_app_key">YOUR_KEY</string>
+</resources>

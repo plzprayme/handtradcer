@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="LoginFragment" type="com.odengmin.handtracer.fragment.LoginFragment"/>
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".fragment.">
+
+
+        <TextView
+            android:id="@+id/text_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:text="손자취"
+            android:textColor="@color/colorPrimary"
+            android:textColorHighlight="@color/ic_hand_tracer_background"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/handtracer_logo"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/washhandss" />
+
+        <ImageView
+            android:id="@+id/btn_login_image"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-500dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/login_kakao"
+            android:onClick="startKakaoLogin"/>
+
+        <com.kakao.usermgmt.LoginButton
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-500dp"
+            android:visibility="invisible"
+            android:layout_marginBottom="100dp" />
+
+        <!--
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_login"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+        -->
+
+    </RelativeLayout>
+</layout>
